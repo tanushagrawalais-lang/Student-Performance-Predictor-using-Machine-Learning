@@ -1,9 +1,36 @@
-The Student Performance Predictor is a machine learning-based project developed to estimate a student’s exam score based on key academic and lifestyle factors. In modern education, students often find it difficult to understand how their daily habits influence their academic performance. This project addresses that issue by providing a data-driven approach to analyze and predict outcomes based on measurable inputs.
+# Student Performance Predictor
 
-The system considers four main features: study hours, sleep duration, attendance percentage, and phone usage. These factors were selected because they play a significant role in shaping a student’s productivity and academic results. A dataset was created containing multiple records of students with varying habits and their corresponding exam scores. Since publicly available datasets for this specific problem were limited, a synthetic dataset was generated based on realistic assumptions and general trends observed among students.
+## Overview
+This project predicts a student's exam score based on lifestyle factors like study time, sleep, attendance, and phone usage using Machine Learning.
 
-To implement the prediction model, Linear Regression was used. This algorithm helps establish a relationship between independent variables (input features) and the dependent variable (exam score). The dataset is divided into training and testing sets to ensure that the model learns effectively and performs well on unseen data. Once trained, the model can accept new inputs from users and provide an estimated exam score instantly.
+## Features
+- Predict exam performance
+- Simple and user-friendly
+- Uses Linear Regression
 
-The project is built using Python, with libraries such as Pandas for data manipulation and Scikit-learn for machine learning tasks. The program is designed to be simple and user-friendly, allowing easy interaction through console-based inputs.
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
 
-This project demonstrates how fundamental machine learning concepts can be applied to solve real-world problems. It highlights the importance of data in understanding patterns and making predictions. Additionally, it encourages students to reflect on their habits and make informed decisions to improve their academic performance.
+## How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the program:
+   python main.py
+
+## Example Input
+Study hours: 6  
+Sleep hours: 7  
+Attendance: 80  
+Phone usage: 3  
+
+## Output 
+Predicted Exam Score: 70.5 
+
+To run the code on your machine the simple process is to:
+pip install -r requirements.txt
+python main.py 
+
+run this into the python compiler and the project should work properly.
